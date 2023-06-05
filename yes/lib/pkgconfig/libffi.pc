@@ -1,0 +1,11 @@
+prefix=/home/jjvelez@PROTECCION.LOCAL/jjvelez/yes
+exec_prefix=${prefix}
+libdir=${exec_prefix}/lib
+toolexeclibdir=${libdir}
+includedir=/home/jjvelez@PROTECCION.LOCAL/jjvelez/yes/include
+
+Name: libffi
+Description: Library supporting Foreign Function Interfaces
+Version: 3.4.2
+Libs: -L${toolexeclibdir} -lffi
+Cflags: -I${includedir}
